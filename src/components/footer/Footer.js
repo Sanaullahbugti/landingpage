@@ -8,38 +8,70 @@ const Footer = () => {
                 
                 <Row style={{ minHeight: "30vh" }}>
                 <Col span={4}>
-                        <img src={require("../../images/logo.png")} style={{ width: "150px" }} />
-                        </Col>
+                       <Row> <img src={require("../../images/logo.png")} style={{ width: "150px" }} /></Row>
+                       <Row style={{marginTop:"80%"}}><Icon type="copyright" />2019 all rights are reserved</Row>
+                </Col>
+                <Col span={4} offset={1}>
+                    <Row>
+                        <h1 style={{marginTop:"5px"}}>SHOP</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>All</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Dresses</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Shoes</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Bags</h1>
+                    </Row>
+                </Col>
+                <Col span={4} offset={1} >
+                    <Row>
+                        <h1 style={{marginTop:"5px"}}>HELP</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>How It Works</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>FAQs</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>My Orders</h1>
+                    </Row>
+                </Col>
+                <Col span={4} offset={1}>
+                    <Row>
+                        <h1 style={{marginTop:"5px"}}>ABOUT US</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>About</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Contact Us</h1>
+                    </Row>
+                </Col>
+                <Col span={4} offset={1}>
+                    <Row>
+                        <h1 style={{marginTop:"5px"}}>FOLLOW US</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Facebook</h1>
+                    </Row>
+                    <Row>
+                        <h1 style={{marginTop:"5px",color:"grey"}}>Tweeter</h1>
+                    </Row>
+                </Col>
                     <div style={{
                         margin: "0 20% 2% 20%"
                     }}>
-                        <Text style={{ fontSize: "20px" }}>
-                            Lorem Ipsum is simply dummy
-                            text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type
-                            specimen book. It has survived not only five centuries, but also the leap
-                            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-										</Text>
+                        
                     </div>
                 </Row>
                 <Row>
-                    <Col offset={8}>
-                        <Button style={{
-                            padding: "5px",
-                            background: "black",
-                            color: "white",
-                            width: "20%",
-                            marginRight: "15px",
-                            height: "40px"
-                        }}>SIGN UP</Button>
-                        <Button style={{
-                            padding: "5px",
-                            background: "white",
-                            width: "20%",
-                            height: "40px"
-                        }}>LEARN MORE</Button>
-                    </Col>
+                   
                 </Row>
             </Card>
         </Row>

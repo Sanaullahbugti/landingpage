@@ -3,11 +3,11 @@ import { Row, Col, Button, Icon } from "antd";
 import React from 'react'
 const CenteralPart = (props) => {
     return (
-        <div style={{ margin: "40% 0% 0% 11%" }}>
+        <div style={{ margin: "500px 0% 0% 11%" }}>
             <div style={{ width: "80%", minHeight: "40vh" }}>
                 <Row >
                     <Col span={12}>
-                        <img src={require("../../images/image1.jpg")} style={{ width: "80%" }} />
+                        <img src={require("../../images/image3.jpg")} style={{ width: "80%" }} />
                     </Col>
                     <Col span={12}>
                         <h2 style={{ fontSize: "30px", paddingBottom: "80px" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>

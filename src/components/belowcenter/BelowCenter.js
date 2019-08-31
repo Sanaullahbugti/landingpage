@@ -3,13 +3,10 @@ import { Row, Col, Button, Icon } from "antd";
 import React from 'react'
 const BelowCanter = (props) => {
     return (
-        <div style={{ margin: "10% 0% 0% 11%" }}>
-            <div style={{ width: "80%", minHeight: "40vh" }}>
+        <div style={{ margin: "100px 0% 0% 11%" }}>
+            <div style={{ width: "88%", minHeight: "40vh" }}>
                 <Row >
-                    <Col span={8} offset={4} style={{ float: "right" }}>
-                        <img src={require("../../images/image2.jpg")} style={{ width: "100%" }} />
-                    </Col>
-                    <Col span={12} style={{ float: "left" }}>
+                <Col span={12} >
                         <p style={{ fontSize: "20px",marginTop:"30%" }}>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -20,6 +17,10 @@ const BelowCanter = (props) => {
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
                     </Col>
+                    <Col span={8} offset={4}  >
+                        <img src={require("../../images/image2.jpg")} style={{ width: "100%" }} />
+                    </Col>
+                    
                 </Row>
             </div>
         </div>
